@@ -1,7 +1,3 @@
-/*https://practice.geeksforgeeks.org/problems/jumping-numbers/0
- * 
- * https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/
- * */
 import java.util.*;
 public class JumpingNumbers {
 	Set<Integer> s=new TreeSet<Integer>();
