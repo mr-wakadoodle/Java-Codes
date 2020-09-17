@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Kadane {
-	// https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+	
 	public static int maxSumArray(int a[], int n) {
 		int curr_sum=0;
 		int max_sum=Integer.MIN_VALUE;
