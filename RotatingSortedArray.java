@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class RotatingSortedArray {
 	// Given a sorted and rotated array A of N distinct elements which is rotated at some point, and given an element K. 
 	//The task is to find the index of the given element K in the array A.
-	//https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+	
 	public static int isPresentInArray(int a[], int size, int k) {
 		int i, end=size-1, beg=0, mid;
 		while (beg<=end) {
